@@ -18,9 +18,6 @@ class InterfaceBuilderViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    
-    
-    
   }
   
   override func didReceiveMemoryWarning() {
@@ -30,7 +27,7 @@ class InterfaceBuilderViewController: UIViewController {
   
   @IBAction func doSomething(_ sender: UIButton) {
     
-    
+    label.text = textField.text
     
   }
   
