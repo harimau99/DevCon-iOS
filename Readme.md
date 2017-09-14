@@ -10,6 +10,11 @@ On this project we will build a tab bar app, with touching with
 
 Start learn Swift with Xcode Playground. A code editor with compiler build in real time. So as you code, you can see the result on the right panel immediately.
 
+# Xcode 
+
+Xcode is the tool to develop iOS app. You need to familiarize with the 
+
 # Network Ready
 
 On this time, many apps are connected to web-services so do we. 
+
