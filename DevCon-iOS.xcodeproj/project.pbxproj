@@ -12,6 +12,7 @@
 		A301B2571F6B03F80078B52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A301B2551F6B03F80078B52F /* Main.storyboard */; };
 		A301B2591F6B03F80078B52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A301B2581F6B03F80078B52F /* Assets.xcassets */; };
 		A301B25C1F6B03F80078B52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A301B25A1F6B03F80078B52F /* LaunchScreen.storyboard */; };
+		A301B2641F6B06410078B52F /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = A301B2631F6B06410078B52F /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		A301B2581F6B03F80078B52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A301B25B1F6B03F80078B52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A301B25D1F6B03F80078B52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A301B2631F6B06410078B52F /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		A301B2651F6B07130078B52F /* DevConPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DevConPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,8 @@
 		A301B2451F6B03F80078B52F = {
 			isa = PBXGroup;
 			children = (
+				A301B2631F6B06410078B52F /* Readme.md */,
+				A301B2651F6B07130078B52F /* DevConPlayground.playground */,
 				A301B2501F6B03F80078B52F /* DevCon-iOS */,
 				A301B24F1F6B03F80078B52F /* Products */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				A301B2541F6B03F80078B52F /* ViewController.swift in Sources */,
 				A301B2521F6B03F80078B52F /* AppDelegate.swift in Sources */,
+				A301B2641F6B06410078B52F /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				A301B2621F6B03F80078B52F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
